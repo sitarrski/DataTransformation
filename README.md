@@ -1,5 +1,5 @@
 # DataTransformation
-BigData projects
+BigData projects I did as assignments for my university classes
 # Digit Recognition with SVM
 
 A minimal Machine Learning demonstration in Python. This script trains a Support Vector Machine (SVM) classifier to recognize handwritten digits using the `scikit-learn` library.
@@ -17,7 +17,7 @@ Install the required dependencies:
 
 ```bash
 pip install scikit-learn matplotlib joblib
-
+```
 ## Usage
 
 1. Open the script and update the model_path variable to a valid local directory (for clf.joblib to save in the current folder).
@@ -25,5 +25,5 @@ pip install scikit-learn matplotlib joblib
 
 ```bash
 python digits_svm.py
-
+```
 
