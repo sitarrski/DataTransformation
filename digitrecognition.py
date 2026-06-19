@@ -43,7 +43,7 @@ plt.show()
 print("The true label of the last image:", digits.target[-1])
 
 # Save the trained model to a file
-model_path = r'/Users/jakub/PyCharmMiscProject/clf.joblib'
+model_path = r'[your local directory]\clf.joblib'
 joblib.dump(clf, model_path)
 print(f"\nModel saved to: {model_path}")
 
