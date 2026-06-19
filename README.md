@@ -18,3 +18,12 @@ Install the required dependencies:
 ```bash
 pip install scikit-learn matplotlib joblib
 
+## Usage
+
+1. Open the script and update the model_path variable to a valid local directory (for clf.joblib to save in the current folder).
+2. Run the script from your terminal:
+
+```bash
+python digits_svm.py
+
+
