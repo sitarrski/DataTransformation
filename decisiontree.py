@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score 
 
 datatrain = pd.read_csv('grypa1-train.csv')
 datatest = pd.read_csv('grypa1-test.csv')
