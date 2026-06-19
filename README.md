@@ -1,6 +1,6 @@
-# DataTransformation
+# Data Transformation
 BigData projects I did as assignments for my university classes
-# Digit Recognition with SVM
+# 1. Digit Recognition with SVM
 
 A minimal Machine Learning demonstration in Python. This script trains a Support Vector Machine (SVM) classifier to recognize handwritten digits using the `scikit-learn` library.
 
@@ -24,6 +24,42 @@ pip install scikit-learn matplotlib joblib
 2. Run the script from your terminal:
 
 ```bash
-python digits_svm.py
+python digitrecognition.py
 ```
 
+# 2. Flu Prediction with Decision Trees 
+
+A minimal Machine Learning demonstration using Python. This script trains a Decision Tree Classifier using the `scikit-learn` library to predict the presence of the flu based on various symptoms (chills, runny nose, fever, headache).
+
+## Features
+
+* **Data Cleaning & Preprocessing:** Standardizes text data by stripping whitespace and converting strings to lowercase to prevent mapping errors.
+* **Categorical Encoding:** Converts text labels (e.g., 'tak', 'nie', 'sredni', 'duzy') into numerical formats required by the model.
+* **Model Training:** Trains a `DecisionTreeClassifier` on the cleaned training dataset.
+* **Prediction & Evaluation:** Predicts outcomes for both the test and training datasets and calculates the model's accuracy.
+
+## Setup
+
+Install the required dependencies:
+
+```bash
+pip install numpy pandas scikit-learn
+```
+## Usage
+
+Run the script from the terminal:
+
+```bash
+python decisiontree.py
+```
+
+## Expected Output
+```
+Prediction for test dataset:
+[1]
+
+Prediction for training dataset:
+[0 1 1 1 0 1 0 1]
+
+Accuracy on training dataset: 1.0
+```
